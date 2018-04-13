@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Core\src\Game.cpp">
+      <Filter>Core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\src\Window.cpp">
+      <Filter>Core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TestGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9fb7b32d-1827-40e2-945e-04c91449833a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{6d1ba9d7-2975-47bf-991d-e2db3b5eefb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{8bda0e5a-04f3-4d77-9694-fe1687c6dc65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e6ebff07-3dea-4d85-a14d-0e751b7bdd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\src">
+      <UniqueIdentifier>{52e9e5ca-c964-4cc1-91f3-ff47f9c44716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\headers">
+      <UniqueIdentifier>{8b28c510-d7d1-49ac-b5fe-167f247f9395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\src">
+      <UniqueIdentifier>{411860e0-b636-4b68-96e1-b2551e12e0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\headers">
+      <UniqueIdentifier>{743c99c6-5a5b-46a5-bf25-b54f4aa84537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\src">
+      <UniqueIdentifier>{0e4d57d4-e269-41e3-99b5-2bf77dcc11d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\headers">
+      <UniqueIdentifier>{cbebfcbb-6618-41c3-9a3f-8129e58d31ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\src">
+      <UniqueIdentifier>{4bac3297-f2d0-4d75-aa2f-98601c242dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\headers">
+      <UniqueIdentifier>{ae6d0a92-0bff-4e84-b28f-6b4286715171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\headers\Game.hpp">
+      <Filter>Core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\headers\Window.hpp">
+      <Filter>Core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGame.hpp" />
+    <ClInclude Include="Graphics\headers\GraphicsObject.hpp">
+      <Filter>Graphics\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
